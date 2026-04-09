@@ -1,0 +1,403 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    /* font-family: Roboto, sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: Inter, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+/* ------Theme 1------------ */
+
+/* :root {
+  --dk-violet: hsl(250, 65%, 10%);
+  --lt-violet: hsl(250, 40%, 22%);
+  --lt-violet2: hsl(255, 50%, 30%);
+
+  --vb-violet: hsl(265, 85%, 60%);
+  --vb-violet2: hsl(275, 75%, 45%);
+
+  --vb-yellow: hsl(45, 100%, 60%);
+
+  --pl-white: hsl(0, 0%, 96%);
+
+  --vb-cyan: hsl(185, 90%, 50%);
+  --vb-cyan2: hsl(190, 85%, 65%);
+
+  --dk-text: hsl(210, 20%, 15%);
+
+} */
+
+/* ------------Theme 2------------ */
+
+/* :root {
+  --dk-violet: hsl(190, 60%, 10%);
+  --lt-violet: hsl(190, 35%, 22%);
+  --lt-violet2: hsl(195, 40%, 30%);
+
+  --vb-violet: hsl(10, 85%, 65%);
+  --vb-violet2: hsl(15, 75%, 50%);
+
+  --vb-yellow: hsl(35, 100%, 65%);
+
+  --pl-white: hsl(0, 0%, 94%);
+
+  --vb-cyan: hsl(170, 80%, 45%);
+  --vb-cyan2: hsl(165, 75%, 60%);
+
+  --dk-text: hsl(200, 15%, 18%);
+} */
+
+/* ---------------Theme 3------------ */
+
+:root {
+  --dk-violet: hsl(230, 35%, 8%);
+  --lt-violet: hsl(230, 25%, 18%);
+  --lt-violet2: hsl(235, 30%, 28%);
+
+  --vb-violet: hsl(300, 90%, 60%);
+  --vb-violet2: hsl(320, 85%, 55%);
+
+  --vb-yellow: hsl(50, 100%, 60%);
+
+  --pl-white: hsl(0, 0%, 95%);
+
+  --vb-cyan: hsl(190, 95%, 55%);
+  --vb-cyan2: hsl(180, 90%, 65%);
+
+  --dk-text: hsl(210, 20%, 14%);
+}
+
+/* -----------------Theme 4----------------- */
+
+/* :root {
+  --dk-violet: hsl(210, 20%, 12%);
+  --lt-violet: hsl(210, 15%, 25%);
+  --lt-violet2: hsl(210, 18%, 35%);
+
+  --vb-violet: hsl(220, 70%, 60%);
+  --vb-violet2: hsl(220, 65%, 50%);
+
+  --vb-yellow: hsl(45, 90%, 65%);
+
+  --pl-white: hsl(0, 0%, 97%);
+
+  --vb-cyan: hsl(200, 80%, 55%);
+  --vb-cyan2: hsl(200, 75%, 65%);
+
+  --dk-text: hsl(210, 15%, 20%);
+} */
+
+/* -----------------Theme 5--------------- */
+
+/* :root {
+  --dk-violet: hsl(220, 30%, 8%);
+  --lt-violet: hsl(220, 25%, 20%);
+  --lt-violet2: hsl(225, 30%, 30%);
+
+  --vb-violet: hsl(260, 90%, 65%);
+  --vb-violet2: hsl(270, 85%, 55%);
+
+  --vb-yellow: hsl(20, 100%, 60%);
+
+  --pl-white: hsl(0, 0%, 92%);
+
+  --vb-cyan: hsl(180, 85%, 50%);
+  --vb-cyan2: hsl(180, 80%, 65%);
+
+  --dk-text: hsl(210, 25%, 16%);
+} */
+
+/* --------------Theme 6--------------------- */
+
+/* :root {
+  --dk-violet: hsl(240, 25%, 10%);
+  --lt-violet: hsl(240, 20%, 20%);
+  --lt-violet2: hsl(240, 18%, 30%);
+
+  --vb-violet: hsl(45, 80%, 60%);
+  --vb-violet2: hsl(40, 70%, 50%);
+
+  --vb-yellow: hsl(35, 90%, 65%);
+
+  --pl-white: hsl(0, 0%, 96%);
+
+  --vb-cyan: hsl(200, 60%, 50%);
+  --vb-cyan2: hsl(200, 50%, 65%);
+
+  --dk-text: hsl(210, 15%, 18%);
+} */
+
+/* ---------------Theme 7------------------ */
+
+/* :root {
+  --dk-violet: hsl(260, 25%, 12%);
+  --lt-violet: hsl(260, 20%, 25%);
+  --lt-violet2: hsl(260, 22%, 35%);
+
+  --vb-violet: hsl(300, 60%, 70%);
+  --vb-violet2: hsl(320, 55%, 65%);
+
+  --vb-yellow: hsl(50, 95%, 70%);
+
+  --pl-white: hsl(0, 0%, 98%);
+
+  --vb-cyan: hsl(180, 60%, 60%);
+  --vb-cyan2: hsl(180, 55%, 70%);
+
+  --dk-text: hsl(210, 15%, 22%);
+} */
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* bg 1 */
+    /* background: linear-gradient(220deg, rgba(10, 15, 40, 1) 0%, rgba(20, 40, 80, 1) 50%, rgba(60, 90, 160, 1) 100%); */
+
+    /* bg 2 */
+    /* background: linear-gradient(210deg, rgba(40, 10, 10, 1) 0%, rgba(120, 40, 20, 1) 50%, rgba(255, 120, 60, 1) 100%); */
+
+    /* bg 3 */
+    /* background: linear-gradient(230deg, rgba(10, 40, 40, 1) 0%, rgba(20, 100, 100, 1) 50%, rgba(80, 200, 180, 1) 100%); */
+
+    /* bg 4 */
+    /* background: linear-gradient(240deg, rgba(20, 10, 40, 1) 0%, rgba(80, 20, 120, 1) 50%, rgba(200, 80, 255, 1) 100%); */
+
+    /* bg 5 */
+    /* background: linear-gradient(200deg, rgba(255, 240, 235, 1) 0%, rgba(255, 200, 180, 1) 50%, rgba(255, 150, 120, 1) 100%); */
+
+    /* bg 6 */
+    /* background: linear-gradient(230deg, rgba(30, 10, 30, 1) 0%, rgba(120, 40, 90, 1) 50%, rgba(255, 150, 200, 1) 100%); */
+
+    /* bg 7 */
+    background: linear-gradient(240deg, rgba(5, 10, 30, 1) 0%, rgba(30, 50, 120, 1) 50%, rgba(120, 160, 255, 1) 100%);
+
+    /* bg 8 */
+    /* background: linear-gradient(220deg, rgba(30, 5, 5, 1) 0%, rgba(120, 20, 10, 1) 50%, rgba(255, 80, 40, 1) 100%); */
+
+    /* bg 9 */
+    /* background: linear-gradient(230deg, rgba(5, 30, 40, 1) 0%, rgba(20, 120, 140, 1) 50%, rgba(100, 220, 255, 1) 100%); */
+
+    /* bg 10 */
+    /* background: linear-gradient(250deg, rgba(15, 10, 40, 1) 0%, rgba(90, 20, 120, 1) 50%, rgba(255, 60, 200, 1) 100%); */
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 90%;
+    max-width: 450px;
+}
+
+.copyBtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.copy-msg{
+    position: absolute;
+    background-color: var(--vb-violet);
+    color: var(--vb-yellow);
+    font-size: 1.25rem;
+    top: -30px;
+    left: -25px;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: all 250ms ease-in-out;
+}
+
+.copy-msg.active{
+    opacity: 1;;
+    transform: scale(1);
+}
+
+h1{
+    color: var(--pl-white);
+    opacity: 0.75;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.display-container{
+    position:relative;
+    background-color: var(--dk-violet);
+    border-radius: 1rem;
+    border-bottom: 0.35rem solid var(--lt-violet2);
+    margin: 1rem 0;
+    padding-top: 0.35rem;
+
+}
+
+.display-pass{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 1.15rem 1rem;
+    color: var(--vb-yellow);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-right: 3.25rem;
+}
+
+.display-pass::placeholder{
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    font-size: 1.5reem;
+    line-height: 30px;
+    color: var(--vb-yellow);
+    opacity: 0.65;
+    text-transform: uppercase;
+    transform: translateY(-65%);
+}
+
+.display-container button{
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+}
+
+.input-container{
+    width: 100%;
+    background-color: var(--dk-violet);
+    border-radius: 1rem;
+    padding: 2rem;
+    border-bottom: 0.35rem solid var(--lt-violet2);
+}
+
+.passLengh{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.passLengh p:nth-child(1){
+    color: var(--pl-white);
+    font-size: 1.5rem;
+    
+}
+
+.passLengh p:nth-child(2){
+    color: var(--vb-yellow);
+    font-size: 1.5rem;
+
+}
+
+.strength-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.strength-container p{
+    color: var(--pl-white);
+    font-size: 1.5rem;
+}
+
+.indicator{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.generatePass{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--vb-violet);
+    text-align: center;
+    border-radius: 0.75rem;
+    border-bottom: 0.35rem solid var(--vb-yellow);
+    text-transform: uppercase;
+    color: var(--vb-yellow);
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.checkboxes{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 0 1rem ;
+}
+
+.checkboxes input{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--vb-cyan);
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.35rem;
+}
+
+.checkboxes input:checked{
+    background-color: var(--vb-cyan2);
+}
+
+.checkboxes input:checked::before{
+    content: '>';
+    position: absolute;
+    color: var(--dk-text);
+    font-size: 1.05rem;
+    font-weight: 600;
+    left: 50%;
+    top: -3.5px;
+    transform: translateX(-50%);
+}
+
+.checkboxes label{
+    color: var(--pl-white);
+    font-size: 1.25rem;
+    letter-spacing: 0.75px;
+    margin-top: -1%;
+}
+
+.slider{
+    appearance: none;
+    width: 100%;
+    height: 0.75rem;
+    cursor: pointer;
+    background-color: var(--lt-violet2);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(var(--vb-violet), var(--vb-violet));
+    background-repeat: no-repeat;
+}
+
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: var(--vb-yellow);
+    cursor: pointer;
+    margin-top: -2px;
+    box-shadow: 0px 0px 20px 0px var(--vb-yellow);
+    transition: all 100ms ease-in;
+
+}
+
